@@ -1,0 +1,45 @@
+@keyframes rainbow {
+  from {
+    color: rgb(0, 0, 0);
+  }
+  to {
+    color: rgb(255, 20, 3);
+  }
+}
+body {
+  font-family: "heebo";
+}
+
+.card01 {
+  border: 2px solid rgb(200, 200, 200);
+  box-shadow: -1px 5px 5px 1px rgba(101, 101, 101, 0.525);
+
+  margin: auto;
+  padding: 2px;
+  width: 520px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 500px;
+}
+article {
+  padding: 2%;
+  border: 2px solid rgb(200, 200, 200);
+  margin: 10px;
+}
+
+.heading {
+  animation: rainbow 2s infinite;
+}
+.heading.heading-1 {
+  font-size: auto;
+  margin: 2%;
+}
+.paragraph {
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 25px;
+}
